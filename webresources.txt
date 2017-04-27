@@ -1,0 +1,2 @@
+http://kennmyers.github.io/tutorial/2016/03/11/getting-flask-on-heroku.html #contains proper prcofile and how to assign port correctly.
+https://www.youtube.com/watch?v=skc-ZEU9kO8&spfreload=1#t=612.51612 good video tutorial missing above section.
