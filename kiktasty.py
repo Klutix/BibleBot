@@ -6,16 +6,6 @@ from kik.messages import messages_from_json, TextMessage, ReceiptMessage, ReadRe
 import collections
 
 
-# class MessageFactory(object):
-    # def CreateTextMessage():
-        # pass
-    # def CreatePictureMessage():
-        # pass
-    # def CreateLinkMessage():
-        # pass
-    # def CreateVideoMessage():
-        # pass
-           
 class Features(object):
     manuallySendReadReceipts = False
     receiveReadReceipts      = False

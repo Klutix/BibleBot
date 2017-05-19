@@ -20,8 +20,7 @@ class BibleDB(object):
     
     Bible = None
     __Books=[]
-    
-        
+            
     def __BuildPassageFromArray(self,DictArray,vStart):
         passage = ''
         for i, verses in enumerate(DictArray):
@@ -32,7 +31,7 @@ class BibleDB(object):
     def __init__(self):
         global Bible
         global __Books
-        Bible = MySqlTasty('BIBLE','Koki','311311Susi','107.170.42.28')
+        Bible = MySqlTasty('DB_NAME','ID','PASSWORD','IP/URL')
         __Books = self.GetBooks()
            
     def GetBooks(self):
@@ -74,9 +73,7 @@ class BibleDB(object):
             
     def ReturnTest(self):
         return str(self.GetBooks()[0][0])
-        # Bible.execute(sql)
-        # Data = Bible.GetResultsDictArray()
-        # return Data[0]['a']
+
         
         
         
